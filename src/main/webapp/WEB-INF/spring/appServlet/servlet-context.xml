@@ -26,7 +26,8 @@
     </beans:bean>
     
     <beans:bean id="uploadPath" class="java.lang.String">
-        <beans:constructor-arg value="C:\\uploadTemp"></beans:constructor-arg>
+        <!-- <beans:constructor-arg value="C:\\uploadTemp"></beans:constructor-arg> -->
+        <beans:constructor-arg value="/Users/sunghyun/uploadTest"></beans:constructor-arg>
     </beans:bean>
 	
 	<context:component-scan base-package="com.sunghyun.*" />
